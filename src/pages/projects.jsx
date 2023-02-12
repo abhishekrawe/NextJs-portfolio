@@ -3,6 +3,8 @@ import useSWR from 'hooks/useSWR'
 import Button from 'components/Global/Button'
 import Link from 'next/link'
 export default function Projects() {
+    const { page } = usePage();
+    
     return <>
         <div className="max-w-3xl mx-auto">
             <div className="py-24">
