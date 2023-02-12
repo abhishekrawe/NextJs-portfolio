@@ -14,8 +14,25 @@ https://user-images.githubusercontent.com/65603830/218334244-d2e1264a-359e-4e2a-
 - Frontend - cd to NextJs-portfolio > npm install > npm run dev
 
 # 🙅‍♂️You need to add your own github personal-access-token , why ?
-Because i am using here a Github API that can show your repository
-on "My Repository" section you will see your own Repsoitory Summary , something like this ⬇️
+- Because i am using here a Github API that can show your repository .
+- Where to add - on clqu.config.js file 
+```
+module.exports = {
+    name: 'Abhishek Rawe',
+    version: '3.0.0',
+    githubName: 'abhishekrawe',
+    githubKey: "YOUR OWN ACCESS TOKEN",
+    email: 'rajputabhisheksingh53@gmail.com',
+    errors: {
+        404: "This page could not be found.",
+        500: "An error occurred while processing your request."
+    }
+} 
+
+```
+
+✅After successsfully adding your token you will see on -
+"My Repository" section your own Repsoitory Summary , something like this ⬇️
 ![image](https://user-images.githubusercontent.com/65603830/218333529-c7841bf5-ff9f-4996-8a8b-14cc86bace03.png)
 
 # 🙋‍♂️How to create new personal-access-token ?
